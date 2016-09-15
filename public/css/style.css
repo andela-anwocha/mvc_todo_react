@@ -1,0 +1,42 @@
+.fixed-action-btn{
+  bottom: 45px;
+  right: 24px;
+}
+
+.card {
+  position: absolute;
+  margin: 0.5rem 0 1rem 2rem;
+  background-color: rgba(19, 16, 16, 0.59) !important;
+  border-radius: 10px;
+  width: 35%;
+  height: auto;
+  top: 10%;
+  border: 1px solid white;
+  cursor: move;
+}
+
+.card-content {
+  height: 300px;
+}
+
+.card-action {
+  border-top: 1px solid rgba(160,160,160,0.6) !important;
+}
+
+.card-action a:nth-child(1){
+  color: #F44336 !important;
+}
+
+.card-edit-content{
+  height: auto;
+  padding: 10px;
+}
+
+.level-up{
+  top: 47px;
+}
+
+.modal-footer:not(.delete) {
+  width: 100px !important;
+  margin: auto !important;
+}
