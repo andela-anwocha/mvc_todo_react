@@ -17,7 +17,7 @@ class TodoController < ApplicationController
   end
 
   def edit
-    redirect_to "/todo/1"
+    redirect_to "/todo/#{@todo.id}"
   end
 
   def create
